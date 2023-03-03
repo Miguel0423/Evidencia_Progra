@@ -1,1 +1,81 @@
+print("Bienvenido a la Biblioteca Digital\n")
+
+while True:
+
+  print("**** Menu Principal****")
+  print("[R] Para Registrar un nuevo ejemplar")
+  print("[C] Para Consultas y reportes")
+  print("[S] Salir")
+
+  opcion_menu=input("Indique su eleccion ").upper()
+  if opcion_menu == "R":
+    pass   
+  elif opcion_menu== "C":
+    pass
+  elif opcion_menu== "S":
+    print("\n Salida concluida")
+    break
+  else:
+    print("\nLa opcion que eligio no se encuentra, indique otra opcion ")
+    continue
+
+  while True:
+    if opcion_menu== "C":
+        print("\n[1] Consulta de titulo")
+        print("[2] Reportes")
+        print("[3] Volver al menu principal")
+        pass
+
+    menu_consultas=input("Indique su eleccion  ").upper()
+    if menu_consultas== "1":
+       pass
+    elif menu_consultas== "2":
+      pass
+    elif menu_consultas== "3":
+      break
+    else:
+       print("\nLa opcion que eligio no se encuentra, indique otra opcion ")
+       continue
+
+    while True:
+      if menu_consultas== "1":
+        print("\n[1] Por titulo")
+        print("[2] Por ISBN")
+        print("[3] Volver al3 menu de Consultas y reportes")
+        pass
+
+        menu_titulo=input("Indique su eleccion").upper()
+        if menu_titulo== "1":
+          pass
+        elif menu_titulo== "2":
+          pass
+        elif menu_titulo== "3":
+          break
+        else:
+          print("\nLa opcion que eligio no se encuentra, indique otra opcion ")
+          continue
+      
+    
+      if menu_consultas== "2":
+        print("\n[1] Catalogo completo")
+        print("[2] Reporte por Autor")
+        print("[3] Reporte por Genero")
+        print("[4] Por año de publicacion")
+        print("[5] Volver al menu de Reportes")
+        pass
+
+        menu_reporte=input("Indique cual es su eleccion ").upper()
+        if menu_reporte== "1":
+          pass
+        elif menu_reporte== "2":
+          pass
+        elif menu_reporte== "3":
+          pass
+        elif menu_reporte== "4":
+          pass
+        elif menu_reporte== "5":
+          break
+        else:
+          print("\nLa opcion que eligio no se encuentra, indique otra opcion ")
+          continue
 
